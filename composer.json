@@ -1,0 +1,31 @@
+{
+    "name": "simpl/module-splitpay",
+    "description": "Simpl Splitpay Payment Gateway",
+    "require": {
+        "php": "~5.5.0|~5.6.0|^7.0|^8.0|^8.1",
+        "magento/module-sales": "*",
+        "magento/module-quote": "*",
+        "magento/module-checkout": "*",
+        "magento/module-payment": "*"
+    },
+    "authors": [
+        {
+            "name": "Simpl Team",
+            "email": "krunal.lakhatariya@getsimpl.com"
+        }
+    ],
+    "type": "magento2-module",
+    "version": "1.4.2",
+    "license": [
+        "OSL-3.0",
+        "AFL-3.0"
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Simpl\\Splitpay\\": ""
+        }
+    }
+}
